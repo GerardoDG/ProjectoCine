@@ -1,0 +1,83 @@
+#logo{
+    margin-left: 6rem;
+}
+
+.header-main nav ul{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.header-main ul a img{
+    margin-right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.header-main nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+main{
+    background-image: url(../../media/images/wallpaper_home_user.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - var(--header-footer-height));
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 79vh;
+}
+
+.main-info-space{
+    height: 70%;
+}
+.main-info-promotional{
+    height: 30%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-info-promotional-imgwtxt{
+    display: flex;
+    align-items: center;
+
+}
+
+.main-info-promotional img{
+    width: 30%;
+    height: 100%;
+}
+
+
+.main-info-promotional-imgwtxt div h2{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2rem, 1rem;
+}
+
+.main-info-promotional-imgwtxt div p{
+    color: aliceblue;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.main-info-text{
+    margin: 0 1rem;
+}

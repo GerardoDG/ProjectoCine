@@ -1,0 +1,45 @@
+
+main{
+    background-image: url(../media/images/back_ind.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - var(--header-footer-height));
+    display: flex;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-info-space{
+    height: 70%;
+}
+.main-info-promotional{
+    height: 30%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-info-promotional div{
+    width: 30%;
+}
+
+.main-info-promotional div h2{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2rem, 1rem;
+}
+
+.main-info-promotional div p{
+    color: aliceblue;
+    font-size: 1rem;
+    margin-top: 1rem;
+}

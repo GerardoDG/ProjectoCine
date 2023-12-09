@@ -1,0 +1,92 @@
+.header-main nav{
+    width: 10%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../media/images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - var(--header-footer-height));
+}
+
+.main-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.main-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    width:100%;
+}
+
+.main-form h2 {
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2rem, 1rem;
+}
+
+.main-login-inputs{
+    background-color: rgba(240, 248, 255, 0.15);
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.main-form h6{
+    font-size: .8rem;
+}
+
+.main-form a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem, 1rem;
+}
+
+.main-form button{
+    width: 50%;
+    height: 2rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    background-color: rgba(240, 248, 255, 0.15);
+    color: aliceblue;
+}
+
+#Iniciar_Sesion{
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, .8);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#Iniciar_Sesion:hover{
+    background-color: rgba(255, 255, 255, .5);
+    color: black;
+}

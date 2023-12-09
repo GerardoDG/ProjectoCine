@@ -1,0 +1,94 @@
+.header-main nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.header-main ul a img{
+    margin-right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../media/images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - var(--header-footer-height));
+}
+.main-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    width:40%;
+}
+
+.main-profile h2 {
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.main-profile input{
+    background-color: rgba(240, 248, 255, 0.15);
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 3rem;
+}
+
+.main-profile h6{
+    width: 100%;
+    font-size: .8rem;
+    margin: 0.5rem 0;
+}
+
+.main-profile a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem, 1rem;
+}
+
+.main-profile button{
+    width: 25%;
+    height: 2rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    background-color: rgba(240, 248, 255, 0.15);
+    color: aliceblue;
+}
+
+.main-profile button a{
+    font-size: 0.7rem;
+}
+.main-profile-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.main-profile-line-membership{
+    width: 80%;
+    align-self: flex-start;
+}
+
+.main-payment{
+    width: 100%;
+}

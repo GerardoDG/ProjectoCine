@@ -1,0 +1,63 @@
+.header-main nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.header-main ul a img{
+    margin-right: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../media/images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - var(--header-footer-height));
+}
+
+.film-image{
+    width: 30%;
+}
+
+.film-image img{
+    margin: 1rem;
+    width: calc(100% - 2rem);
+}
+
+.film-info{
+    width: 70%;
+    margin: 1rem;
+}
+
+.film-info-spaced{
+    display: flex;
+    justify-content: space-around;
+}
+
+.film-info div{
+    display: flex;
+    width: 100%;
+}
+
+#btn-right{
+    justify-content: flex-end;
+}
+
+.film-info button{
+    align-self: self-end;
+    width: 25%;
+    height: 2rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(240, 248, 255, 0.15);
+    color: aliceblue;
+}

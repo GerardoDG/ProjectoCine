@@ -1,0 +1,28 @@
+.header-main nav{
+    width: 10%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../media/images/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - var(--header-footer-height));
+}
+
+#return{
+    width: 50%;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, .8);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#return:hover{
+    background-color: rgba(255, 255, 255, .5);
+    color: black;
+}
